@@ -17,21 +17,21 @@ enum class EUIAnchorPosition : uint8
 
 
 UCLASS()
-class CASHUI_API AActorAnchoredUI : public AActor
+class CASHUIPLUGIN_API AActorAnchoredUI : public AActor
 {
 	GENERATED_BODY()
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "CashUI ActorAnchored UI")
 	UWidgetComponent* WidgetComponent;
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AActorAnchoredUI();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
@@ -43,5 +43,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CashUI ActorAnchored UI")
 	float Offset;
-	
+
 };

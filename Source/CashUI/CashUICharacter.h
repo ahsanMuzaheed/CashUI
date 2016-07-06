@@ -1,9 +1,7 @@
 // Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
-#include "ParticleDefinitions.h"
 #include "CashUICharacter.generated.h"
-
 
 UCLASS(config=Game)
 class ACashUICharacter : public ACharacter

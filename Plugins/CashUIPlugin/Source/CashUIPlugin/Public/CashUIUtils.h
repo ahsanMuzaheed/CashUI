@@ -6,16 +6,16 @@
 #include "CashUIUtils.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
-class CASHUI_API UCashUIUtils : public UBlueprintFunctionLibrary
+class CASHUIPLUGIN_API UCashUIUtils : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 public:
 		UFUNCTION(BlueprintCallable, Category = "CashUI Utils")
 		static FString MakeScrambledStringPercent(const FString inString, const float scrambledPercent);
-	
 
-	
+
+
 };

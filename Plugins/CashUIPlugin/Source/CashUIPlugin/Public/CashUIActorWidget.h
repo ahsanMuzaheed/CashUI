@@ -3,13 +3,14 @@
 #pragma once
 
 #include "Blueprint/UserWidget.h"
+#include "Image.h"
 #include "CashUIActorWidget.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
-class CASHUI_API UCashUIActorWidget : public UUserWidget
+class CASHUIPLUGIN_API UCashUIActorWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
@@ -21,5 +22,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CashUI Parameters")
 	UImage* ProfileImage;
 
-	
+
 };

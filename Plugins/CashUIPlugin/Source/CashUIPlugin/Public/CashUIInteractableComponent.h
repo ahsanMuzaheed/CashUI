@@ -8,17 +8,17 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class CASHUI_API UCashUIInteractableComponent : public UActorComponent
+class CASHUIPLUGIN_API UCashUIInteractableComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UCashUIInteractableComponent();
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
-	
+
 	// Called every frame
 	virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
@@ -33,5 +33,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CashUI Parameters")
 		UImage* ProfileImage;
-	
+
 };

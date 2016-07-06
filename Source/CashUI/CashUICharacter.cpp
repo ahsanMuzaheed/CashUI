@@ -2,7 +2,6 @@
 
 #include "CashUI.h"
 #include "CashUICharacter.h"
-#include "Engine.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ACashUICharacter
@@ -66,8 +65,6 @@ void ACashUICharacter::SetupPlayerInputComponent(class UInputComponent* InputCom
 	// handle touch devices
 	InputComponent->BindTouch(IE_Pressed, this, &ACashUICharacter::TouchStarted);
 	InputComponent->BindTouch(IE_Released, this, &ACashUICharacter::TouchStopped);
-
-
 }
 
 
@@ -87,8 +84,6 @@ void ACashUICharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Locat
 		StopJumping();
 	}
 }
-
-
 
 void ACashUICharacter::TurnAtRate(float Rate)
 {
@@ -130,4 +125,3 @@ void ACashUICharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
-
