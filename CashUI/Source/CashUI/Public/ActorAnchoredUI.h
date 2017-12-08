@@ -17,7 +17,7 @@ enum class EUIAnchorPosition : uint8
 
 
 UCLASS()
-class CASHUIPLUGIN_API AActorAnchoredUI : public AActor
+class CASHUI_API AActorAnchoredUI : public AActor
 {
 	GENERATED_BODY()
 

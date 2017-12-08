@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "CashUIPlugin.h"
+#include "CashUI.h"
 #include "ActorAnchoredUI.h"
 #include "Kismet/KismetMathLibrary.h"
 
@@ -46,7 +46,7 @@ void AActorAnchoredUI::Tick( float DeltaTime )
 
 	if (TargetActor != nullptr)
 	{
-		
+
 		SetActorRotation(FMath::RInterpTo(GetActorRotation(), UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation()), DeltaTime, 5.0f));
 	}
 }

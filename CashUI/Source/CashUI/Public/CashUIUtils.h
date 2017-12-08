@@ -9,7 +9,7 @@
  *
  */
 UCLASS()
-class CASHUIPLUGIN_API UCashUIUtils : public UBlueprintFunctionLibrary
+class CASHUI_API UCashUIUtils : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 public:

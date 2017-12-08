@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "CashUIPlugin.h"
+#include "CashUI.h"
 #include "CashUIInteractableComponent.h"
 
 
@@ -22,7 +22,7 @@ void UCashUIInteractableComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+
 }
 
 

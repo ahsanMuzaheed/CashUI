@@ -2,16 +2,16 @@
 
 using UnrealBuildTool;
 
-public class CashUIPlugin : ModuleRules
+public class CashUI : ModuleRules
 {
-	public CashUIPlugin(TargetInfo Target)
+	public CashUI(TargetInfo Target)
 	{
-        
+		
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "Slate", "SlateCore"  });
 
 
 
-    }
+	}
 
 
 }

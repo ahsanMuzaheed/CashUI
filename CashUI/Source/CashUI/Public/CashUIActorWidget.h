@@ -10,7 +10,7 @@
  *
  */
 UCLASS()
-class CASHUIPLUGIN_API UCashUIActorWidget : public UUserWidget
+class CASHUI_API UCashUIActorWidget : public UUserWidget
 {
 	GENERATED_BODY()
 

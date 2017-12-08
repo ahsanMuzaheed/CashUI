@@ -8,7 +8,7 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class CASHUIPLUGIN_API UCashUIInteractableComponent : public UActorComponent
+class CASHUI_API UCashUIInteractableComponent : public UActorComponent
 {
 	GENERATED_BODY()
 

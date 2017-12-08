@@ -6,7 +6,7 @@
 
 #define Msg(Text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, TEXT(Text));
 
-class FCashUIPlugin : public IModuleInterface
+class FCashUI : public IModuleInterface
 {
 public:
 
