@@ -12,13 +12,13 @@
 	"SupportURL": "",
 	"Modules": [
 		{
-			"Name": "CashUIPlugin",
+			"Name": "CashUI",
 			"Type": "Developer",
 			"LoadingPhase": "Default"
 		}
 	],
 	"EnabledByDefault": false,
 	"CanContainContent": false,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"Installed": false
 }
